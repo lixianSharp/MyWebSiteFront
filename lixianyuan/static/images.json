@@ -1,0 +1,24 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0004",
+        "imgUrl": "http://www.lixianyuan.org/frontPage/images/index/4.jpg"
+      },{
+        "id": "0001",
+        "imgUrl": "http://www.lixianyuan.org/frontPage/images/index/1.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://www.lixianyuan.org/frontPage/images/index/3.jpg"
+      },{
+        "id": "0005",
+        "imgUrl": "http://www.lixianyuan.org/frontPage/images/index/5.jpg"
+      },{
+        "id": "0006",
+        "imgUrl": "http://www.lixianyuan.org/frontPage/images/index/6.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://www.lixianyuan.org/frontPage/images/index/7.jpg"
+      }]
+  }
+}
