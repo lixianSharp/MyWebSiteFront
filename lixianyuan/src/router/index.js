@@ -4,7 +4,9 @@ import HelloWorld from '@/components/HelloWorld'
 import FIndex from '@/components/front/FIndex'
 import MIndex from '@/components/after/MIndex'
 import Carousel from '@/components/front/carousel/Carousel'
-
+import Header from '@/components/front/header/Header'
+import Footer from '@/components/front/footer/Footer'
+import LeaveMsg from '@/components/front/leavemsg/LeaveMsg'
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +29,19 @@ export default new Router({
       path: '/carousel',
       name: 'Carousel',
       component: Carousel
+    },{
+      path: '/header',
+      name: 'Header',
+      component: Header
+    },{
+      path: '/footer',
+      name: 'Footer',
+      component: Footer
+    },{
+    	path: '/leaveMsg',
+    	name: '/LeaveMsg',
+    	component: LeaveMsg
     }
+    
   ]
 })
