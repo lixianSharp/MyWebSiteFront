@@ -84,8 +84,8 @@
 				//如果表单通过校验，则提交表单
 				this.$refs[formName].validate((valid) => {
 					if(valid) {
-						alert('submit!');
-						alert(this.ruleForm.name+"->"+this.ruleForm.email+"->"+this.ruleForm.content)
+						//alert('submit!');
+						//alert(this.ruleForm.name+"->"+this.ruleForm.email+"->"+this.ruleForm.content)
 						//		<!-- axios的表单提交,Content-Type默认为application/json;charset=UTF-8 -->
 						axios.post('/after/addLeaveMsg', QS.stringify(leavemsg), {
 								headers: {
@@ -94,6 +94,9 @@
 							})
 							.then(function(response) {
 								console.log(response);
+								//取出需要的返回结果中的数据
+								console.log(response.data);
+								
 							})
 							.catch(function(err) {
 								console.log(err);

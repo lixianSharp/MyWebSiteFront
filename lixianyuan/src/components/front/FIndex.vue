@@ -1,8 +1,7 @@
 <template>
-	<div>
+	<div class='firstHead'>
 		<el-row :gutter="20">
 			<el-col :span="24">
-
 				<div class="grid-content bg-purple">
 					<header-page></header-page>
 				</div>
@@ -131,5 +130,7 @@
 		background-color: #f9fafc;
 	}
 	
-	
+	.firstHead{
+		background-color: #E5E9F2;
+	}
 </style>

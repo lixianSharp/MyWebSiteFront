@@ -7,6 +7,12 @@ import Carousel from '@/components/front/carousel/Carousel'
 import Header from '@/components/front/header/Header'
 import Footer from '@/components/front/footer/Footer'
 import LeaveMsg from '@/components/front/leavemsg/LeaveMsg'
+import ShowMsg from '@/components/front/leavemsg/ShowMsg'
+import Gossip from '@/components/front/xysy/Gossip'
+import Picture from '@/components/front/photo/Picture'
+import NoteShare from '@/components/front/share/NoteShare'
+import ResourceShare from '@/components/front/share/ResourceShare'
+import About from '@/components/front/about/About'
 Vue.use(Router)
 
 export default new Router({
@@ -41,6 +47,30 @@ export default new Router({
     	path: '/leaveMsg',
     	name: '/LeaveMsg',
     	component: LeaveMsg
+    },{
+    	path: '/showMsg',
+    	name: '/ShowMsg',
+    	component: ShowMsg
+    },{
+    	path: '/gossip',
+    	name: '/Gossip',
+    	component: Gossip
+    },{
+    	path: '/picture',
+    	name: '/Picture',
+    	component: Picture
+    },{
+    	path: '/noteShare',
+    	name: '/NoteShare',
+    	component: NoteShare
+    },{
+    	path: '/resourceShare',
+    	name: '/ResourceShare',
+    	component: ResourceShare
+    },{
+    	path: '/about',
+    	name: '/About',
+    	component: About
     }
     
   ]
