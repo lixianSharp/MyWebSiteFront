@@ -2,7 +2,8 @@
 	<div>
 		<nav id="topnav">
 			<ul>
-				<a href="/index.jsp" target="_self">网站首页</a>
+				<!--<a href="/index.jsp" target="_self">网站首页</a>-->
+				<router-link to="/findex">网站首页</router-link>
 				<!--<a href="/frontPage/ydyblogMenu/rightShow.jsp" target="_self">博客/笔记分享</a>-->
 				<router-link to="/noteShare">博客/笔记分享</router-link>
 				<router-link to="/gossip">闲言碎语</router-link>

@@ -11,7 +11,7 @@
 			</el-col>-->
 		</el-row>
 		<el-row :gutter="20">
-			<el-col :span="24">
+			<el-col :span="24">    
 				<carousel-page :swiperList="swiperList"></carousel-page>
 			</el-col>
 			<!--<el-col :span="8">
