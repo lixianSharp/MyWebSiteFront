@@ -4,8 +4,8 @@
 			<div id="footId" class="footerDivClass">
 				<ul>
 					<p align="center">
-						CopyRight © 2017~2019 李贤元个人博客网站
-						<a href="http://www.miitbeian.gov.cn/">闽ICP备17018144号</a>
+						CopyRight © 2017~2020李贤元个人博客网站
+						<a href="http://http://www.beian.miit.gov.cn/">闽ICP备17018144号</a>
 					</p>
 				</ul>
 			</div>
